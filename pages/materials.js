@@ -3,7 +3,7 @@ import Player from "../components/YTPlayer";
 import { useRouter } from "next/router";
 import { Videos } from "../utils/guides";
 // import { useState } from "react";
-function materials() {
+function Materials() {
   const router = useRouter();
   const { name, index } = router.query;
 
@@ -23,4 +23,4 @@ function materials() {
   );
 }
 
-export default materials;
+export default Materials;

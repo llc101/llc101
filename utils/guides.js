@@ -136,7 +136,7 @@ export const Guides = [
   },
 ];
 
-export const Details = [
+export const Details_Data = [
   {
     name: "Web Development",
     path: "web_development",

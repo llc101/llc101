@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Details } from "../../utils/guides";
+import { Details_Data } from "../../utils/guides";
 
-function details({ guides }) {
+function Details({ guides }) {
   const [item, setItem] = useState([
     {
       name: "",
@@ -180,8 +180,8 @@ function details({ guides }) {
   );
 }
 
-details.defaultProps = {
-  guides: Details,
+Details.defaultProps = {
+  guides: Details_Data,
 };
 
-export default details;
+export default Details;

@@ -124,18 +124,18 @@ function Rules() {
           indirectly out of, or that relates directly or indirectly to, the
           Site. If you are a California resident, you hereby waive California
           civil code section 1542 in connection with the foregoing, which
-          states: "a general release does not extend to claims which the
+          states: &quot;a general release does not extend to claims which the
           creditor does not know or suspect to exist in his or her favor at the
           time of executing the release, which if known by him or her must have
-          materially affected his or her settlement with the debtor."
+          materially affected his or her settlement with the debtor.&quot;
         </p>
 
         <p>
           <strong>Cookies and Web Beacons.</strong> Like any other website, 101
-          uses ‘cookies&apos;. These cookies are used to store information
-          including visitors&apos; preferences, and the pages on the website
-          that the visitor accessed or visited. The information is used to
-          optimize the users&apos; experience by customizing our web page
+          uses &rtapos;cookies&apos;. These cookies are used to store
+          information including visitors&apos; preferences, and the pages on the
+          website that the visitor accessed or visited. The information is used
+          to optimize the users&apos; experience by customizing our web page
           content based on visitors&apos; browser type and/or other information.
         </p>
 
@@ -179,18 +179,18 @@ function Rules() {
         <h2>Disclaimers</h2>
 
         <p>
-          The site is provided on an "as-is" and "as available" basis, and
-          company and our suppliers expressly disclaim any and all warranties
-          and conditions of any kind, whether express, implied, or statutory,
-          including all warranties or conditions of merchantability, fitness for
-          a particular purpose, title, quiet enjoyment, accuracy, or
-          non-infringement.  We and our suppliers make not guarantee that the
-          site will meet your requirements, will be available on an
-          uninterrupted, timely, secure, or error-free basis, or will be
-          accurate, reliable, free of viruses or other harmful code, complete,
-          legal, or safe.  If applicable law requires any warranties with
-          respect to the site, all such warranties are limited in duration to
-          ninety (90) days from the date of first use.
+          The site is provided on an &quot;as-is&quot; and &quot;as
+          available&quot; basis, and company and our suppliers expressly
+          disclaim any and all warranties and conditions of any kind, whether
+          express, implied, or statutory, including all warranties or conditions
+          of merchantability, fitness for a particular purpose, title, quiet
+          enjoyment, accuracy, or non-infringement.  We and our suppliers make
+          not guarantee that the site will meet your requirements, will be
+          available on an uninterrupted, timely, secure, or error-free basis, or
+          will be accurate, reliable, free of viruses or other harmful code,
+          complete, legal, or safe.  If applicable law requires any warranties
+          with respect to the site, all such warranties are limited in duration
+          to ninety (90) days from the date of first use.
         </p>
 
         <p>
@@ -534,20 +534,20 @@ function Rules() {
           failure to exercise or enforce any right or provision of these Terms
           shall not operate as a waiver of such right or provision. The section
           titles in these Terms are for convenience only and have no legal or
-          contractual effect. The word "including" means "including without
-          limitation". If any provision of these Terms is held to be invalid or
-          unenforceable, the other provisions of these Terms will be unimpaired
-          and the invalid or unenforceable provision will be deemed modified so
-          that it is valid and enforceable to the maximum extent permitted by
-          law.  Your relationship to Company is that of an independent
-          contractor, and neither party is an agent or partner of the other. 
-          These Terms, and your rights and obligations herein, may not be
-          assigned, subcontracted, delegated, or otherwise transferred by you
-          without Company&apos;s prior written consent, and any attempted
-          assignment, subcontract, delegation, or transfer in violation of the
-          foregoing will be null and void.  Company may freely assign these
-          Terms.  The terms and conditions set forth in these Terms shall be
-          binding upon assignees.
+          contractual effect. The word &quot;including&quot; means
+          &quot;including without limitation&quot;. If any provision of these
+          Terms is held to be invalid or unenforceable, the other provisions of
+          these Terms will be unimpaired and the invalid or unenforceable
+          provision will be deemed modified so that it is valid and enforceable
+          to the maximum extent permitted by law.  Your relationship to Company
+          is that of an independent contractor, and neither party is an agent or
+          partner of the other.  These Terms, and your rights and obligations
+          herein, may not be assigned, subcontracted, delegated, or otherwise
+          transferred by you without Company&apos;s prior written consent, and
+          any attempted assignment, subcontract, delegation, or transfer in
+          violation of the foregoing will be null and void.  Company may freely
+          assign these Terms.  The terms and conditions set forth in these Terms
+          shall be binding upon assignees.
         </p>
 
         <p>
