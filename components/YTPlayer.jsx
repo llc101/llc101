@@ -42,7 +42,7 @@ function Player({ watch = 0, tuts, name }) {
         <div className="md:w-4/5 mx-auto flex flex-col justify-center items-center space-y-4 mt-8">
           <div>
             <p className="text-center md:text-xl font-bold">
-              Please don't just watch; open your workspace and go along.
+              Please don&apos;t just watch; open your workspace and go along.
             </p>
           </div>
           <a
