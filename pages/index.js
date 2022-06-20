@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+
 import XD from "../public/images/icons/adobe-xd-240.png";
 import illustrator from "../public/images/icons/adobe-illustrator-480.png";
 import Web from "../public/images/icons/web-development-64.png";
@@ -35,12 +37,12 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <a
+                <Link
                   href="/guides"
                   className="bg-orange-400 py-2 px-4 text-sm font-medium rounded-md"
                 >
                   Get Started
-                </a>
+                </Link>
               </div>
             </div>
             <div className="md:flex-[0.6] h-[250px] md:h-full justify-center items-center flex mt-16 md:mt-0">
@@ -67,12 +69,12 @@ export default function Home() {
                   <p className="text-sm md:text-base text-gray-800 my-4">
                     Learn to program in any language.
                   </p>
-                  <a
+                  <Link
                     href="/guides/details?path=programming"
                     className="bg-[#ff0062] px-4 py-2 text-sm md:text-xl font-medium text-white rounded-full"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -86,12 +88,12 @@ export default function Home() {
                   <p className="text-gray-800 my-4 md:text-base text-sm">
                     Learn to create website.
                   </p>
-                  <a
+                  <Link
                     href="/"
                     className="bg-[#ff0062] px-4 py-2 text-sm md:text-xl font-medium text-white rounded-full"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -110,12 +112,12 @@ export default function Home() {
                   <p className="text-gray-800 my-4">
                     Learn how to create mobile apps and games.
                   </p>
-                  <a
+                  <Link
                     href="/"
                     className="bg-[#ff0062] px-4 py-2 text-xl font-medium text-white rounded-full"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -129,12 +131,12 @@ export default function Home() {
                   <p className="text-gray-800 my-4">
                     Learn to design vector graphics.
                   </p>
-                  <a
+                  <Link
                     href="/"
                     className="bg-[#ff0062] px-4 py-2 text-xl font-medium text-white rounded-full"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -146,12 +148,12 @@ export default function Home() {
                   <p className="text-gray-800 md:text-base text-sm my-4">
                     Learn UI design.
                   </p>
-                  <a
+                  <Link
                     href="/"
                     className="bg-[#ff0062] px-4 py-2 text-sm md:text-xl font-medium text-white rounded-full"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -165,12 +167,12 @@ export default function Home() {
                   <p className="text-gray-800 md:text-base text-sm my-4">
                     Learn photo editing and vector graphic design.
                   </p>
-                  <a
+                  <Link
                     href="/"
                     className="bg-[#ff0062] px-4 py-2 text-sm md:text-xl font-medium text-white rounded-full"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -182,12 +184,12 @@ export default function Home() {
                   <p className="text-gray-800 my-4">
                     Learn 3D design and animation.
                   </p>
-                  <a
+                  <Link
                     href="/"
                     className="bg-[#ff0062] px-4 py-2 text-xl font-medium text-white rounded-full"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -199,12 +201,12 @@ export default function Home() {
                     Adobe After Effect
                   </h3>
                   <p className="text-gray-800 my-4">Learn video editing.</p>
-                  <a
+                  <Link
                     href="/"
                     className="bg-[#ff0062] px-4 py-2 text-xl font-medium text-white rounded-full"
                   >
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -246,12 +248,12 @@ export default function Home() {
                     your portfolio. When you complete a challenge, you receive a
                     reward that you may use to open up a new one.
                   </p>
-                  <a
+                  <Link
                     href="/challenge"
                     className="bg-[#ff0062] px-8 py-2 text-sm font-medium text-white rounded-full"
                   >
                     JOIN US
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="challenge hidden md:block flex-[0.3] h-[450px] rounded-t-full mx-auto"></div>
@@ -267,12 +269,12 @@ export default function Home() {
                     unlock more tryouts, complete challenges and use your
                     reward.
                   </p>
-                  <a
+                  <Link
                     href="/challenge"
                     className="bg-[#ff0062] px-8 py-2 text-sm font-medium text-white rounded-full"
                   >
                     TRY OUT
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -291,12 +293,12 @@ export default function Home() {
               and get inspired! Engage with 101 users, ask questions and help
               others!
             </p>
-            <a
+            <Link
               href="/challenge"
               className="bg-[#ff0062] px-8 py-2 text-sm font-medium text-white rounded-full"
             >
               Join Us
-            </a>
+            </Link>
           </div>
         </div>
       </main>
