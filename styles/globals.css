@@ -1,9 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -14,3 +21,134 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.Logo {
+  font-family: "pacifico";
+}
+
+.showcase-background {
+  background: linear-gradient(#000000ec, #000000ec),
+    url(../public/images/pexels-adrien-olichon-2387793.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.php {
+  position: absolute;
+  bottom: -10%;
+  left: -5%;
+  background: url(../public/images/ben-griffiths-Bj6ENZDMSDY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ux {
+  background: url(../public/images/teemu-paananen-bzdhc5b3Bxs-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 0%); */
+}
+
+.adobe-suit {
+  position: absolute;
+  bottom: 0;
+  right: -7%;
+  background: url(../public/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blender-3d {
+  position: absolute;
+  bottom: -10%;
+  right: 35%;
+  /* z-index: 1; */
+  background: url(../public/images/anshita-nair-Jo_GA0TDTgM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.guide {
+  background: url(../public/images/pexels-julia-m-cameron-4144101.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.challenge {
+  background: url(../public/images/pexels-pixabay-163064.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tryout {
+  background: url(../public/images/pexels-luca-sammarco-6155010.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.community {
+  background: linear-gradient(rgba(0, 0, 0, 0.425), black),
+    url(../public/images/jason-goodman-Oalh2MojUuk-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.web {
+  background: linear-gradient(rgba(0, 0, 0, 0.425), black),
+    url(../public/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mobile {
+  background: linear-gradient(rgba(0, 0, 0, 0.425), black),
+    url(../public/images/oskar-yildiz-gy08FXeM2L4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.programming {
+  background: linear-gradient(rgba(0, 0, 0, 0.425), black),
+    url(../public/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.adobe {
+  background: url(../public/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blender {
+  background: linear-gradient(rgba(0, 0, 0, 0.425), black),
+    url(../public/images/mariia-shalabaieva-fRqWbDS40Bg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clip-background {
+  clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.clip-background-1 {
+  clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
