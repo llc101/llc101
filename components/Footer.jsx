@@ -8,9 +8,11 @@ function Footer() {
       <div className="md:w-4/5 m-auto flex justify-center items-center">
         <div className="hidden md:block border-r-4 border-gray-800 px-16 space-y-8 py-8">
           <h1 className="text-3xl font-semibold">
-            <a href="/" className="bg-white text-black rounded-md">
-              1.0.<span className="bg-orange-400 rounded-md">oNe</span>
-            </a>
+            <Link href="/">
+              <span className="bg-white text-black rounded-md">
+                1.0.<span className="bg-orange-400 rounded-md">oNe</span>
+              </span>
+            </Link>
           </h1>
           <div className="flex space-x-8">
             <BsFacebook size={28} />
