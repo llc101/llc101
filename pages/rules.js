@@ -81,11 +81,11 @@ function Rules() {
           Excluding any User Content that you may provide, you are aware that
           all the intellectual property rights, including copyrights, patents,
           trademarks, and trade secrets, in the Site and its content are owned
-          by Company or Company’s suppliers. Note that these Terms and access to
-          the Site do not give you any rights, title or interest in or to any
-          intellectual property rights, except for the limited access rights
-          expressed in Section 2.1. Company and its suppliers reserve all rights
-          not granted in these Terms.
+          by Company or Company&apos;s suppliers. Note that these Terms and
+          access to the Site do not give you any rights, title or interest in or
+          to any intellectual property rights, except for the limited access
+          rights expressed in Section 2.1. Company and its suppliers reserve all
+          rights not granted in these Terms.
         </p>
 
         <h2>Third-Party Links & Ads; Other Users</h2>
@@ -101,8 +101,8 @@ function Rules() {
           Third-Party Links & Ads.  You use all Third-Party Links & Ads at your
           own risk, and should apply a suitable level of caution and discretion
           in doing so. When you click on any of the Third-Party Links & Ads, the
-          applicable third party’s terms and policies apply, including the third
-          party’s privacy and data gathering practices.
+          applicable third party&apos;s terms and policies apply, including the
+          third party&apos;s privacy and data gathering practices.
         </p>
 
         <p>
@@ -132,11 +132,11 @@ function Rules() {
 
         <p>
           <strong>Cookies and Web Beacons.</strong> Like any other website, 101
-          uses ‘cookies’. These cookies are used to store information including
-          visitors’ preferences, and the pages on the website that the visitor
-          accessed or visited. The information is used to optimize the users’
-          experience by customizing our web page content based on visitors’
-          browser type and/or other information.
+          uses ‘cookies&apos;. These cookies are used to store information
+          including visitors&apos; preferences, and the pages on the website
+          that the visitor accessed or visited. The information is used to
+          optimize the users&apos; experience by customizing our web page
+          content based on visitors&apos; browser type and/or other information.
         </p>
 
         <p>
@@ -292,8 +292,9 @@ function Rules() {
           Please note that, pursuant to 17 U.S.C. § 512(f), any
           misrepresentation of material fact in a written notification
           automatically subjects the complaining party to liability for any
-          damages, costs and attorney’s fees incurred by us in connection with
-          the written notification and allegation of copyright infringement.
+          damages, costs and attorney&apos;s fees incurred by us in connection
+          with the written notification and allegation of copyright
+          infringement.
         </p>
 
         <h2>General</h2>
@@ -488,8 +489,8 @@ function Rules() {
           <strong>Claims Not Subject to Arbitration.</strong> Notwithstanding
           the foregoing, claims of defamation, violation of the Computer Fraud
           and Abuse Act, and infringement or misappropriation of the other
-          party’s patent, copyright, trademark or trade secrets shall not be
-          subject to this Arbitration Agreement.
+          party&apos;s patent, copyright, trademark or trade secrets shall not
+          be subject to this Arbitration Agreement.
         </p>
 
         <p>
@@ -542,11 +543,11 @@ function Rules() {
           contractor, and neither party is an agent or partner of the other. 
           These Terms, and your rights and obligations herein, may not be
           assigned, subcontracted, delegated, or otherwise transferred by you
-          without Company’s prior written consent, and any attempted assignment,
-          subcontract, delegation, or transfer in violation of the foregoing
-          will be null and void.  Company may freely assign these Terms.  The
-          terms and conditions set forth in these Terms shall be binding upon
-          assignees.
+          without Company&apos;s prior written consent, and any attempted
+          assignment, subcontract, delegation, or transfer in violation of the
+          foregoing will be null and void.  Company may freely assign these
+          Terms.  The terms and conditions set forth in these Terms shall be
+          binding upon assignees.
         </p>
 
         <p>
