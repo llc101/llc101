@@ -1,6 +1,3 @@
-import BuildSVG from "../public/images/undraw_building_websites_i78t.svg";
-import Image from "next/image";
-
 function Building() {
   return (
     <div className="h-full space-y-8 md:space-y-16">

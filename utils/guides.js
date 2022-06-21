@@ -10,7 +10,7 @@ import After from "../public/images/icons/adobe-after-effects-240.png";
 export const Guides = [
   {
     path: "web_development",
-    image: Web,
+    image: "/images/icons/web-development-64.png",
     name: "Web Development",
     categories: [
       {
@@ -62,7 +62,7 @@ export const Guides = [
   },
   {
     path: "mobile_development",
-    image: Mobile,
+    image: "/images/icons/mobile-development-98.png",
     name: "Mobile Development",
     categories: [
       {
@@ -84,7 +84,7 @@ export const Guides = [
   },
   {
     path: "programming",
-    image: Program,
+    image: "/images/icons/console-50.png",
     name: "Programming",
     categories: [
       "FORTRAN",
@@ -106,31 +106,31 @@ export const Guides = [
   },
   {
     path: "blender",
-    image: Blender,
+    image: "/images/icons/blender-3d-240.png",
     name: "Blender 3D",
     categories: ["Basic", "Intermidiate", "Advance"],
   },
   {
     path: "adobe_xd",
-    image: XD,
+    image: "/images/icons/adobe-xd-240.png",
     name: "Adobe XD",
     categories: ["Basic", "Advance"],
   },
   {
     path: "adobe_photoshop",
-    image: Photoshop,
+    image: "/images/icons/adobe-photoshop-480.png",
     name: "Adobe Photoshop",
     categories: ["Basic", "Intermidiate", "Advance"],
   },
   {
     path: "adobe_illustrator",
-    image: illustrator,
+    image: "/images/icons/adobe-illustrator-480.png",
     name: "Adobe Illustrator",
     categories: ["Basic", "Intermidiate", "Advance"],
   },
   {
     path: "adobe_effect",
-    image: After,
+    image: "/images/icons/adobe-after-effects-240.png",
     name: "Adobe After Effect",
     categories: ["Basic", "Intermidiate", "Advance"],
   },

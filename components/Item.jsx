@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
@@ -8,7 +7,7 @@ function Item({ guide }) {
       <div className="flex items-center justify-between lg:space-x-8">
         <div className="flex items-center lg:space-x-8">
           <div className="hidden lg:block">
-            <Image src={guide.image} height="45" width="45" />
+            <img src={guide.image} height="45" width="45" />
           </div>
           <h3 className="font-semibold lg:text-2xl">{guide.name}</h3>
         </div>

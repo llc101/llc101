@@ -1,15 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
-
-import XD from "../public/images/icons/adobe-xd-240.png";
-import illustrator from "../public/images/icons/adobe-illustrator-480.png";
-import Web from "../public/images/icons/web-development-64.png";
-import Mobile from "../public/images/icons/mobile-development-98.png";
-import Program from "../public/images/icons/console-50.png";
-import Blender from "../public/images/icons/blender-3d-240.png";
-import Photoshop from "../public/images/icons/adobe-photoshop-480.png";
-import After from "../public/images/icons/adobe-after-effects-240.png";
 // import Challenge from "../public/images/pexels-pixabay-163064.jpg";
 
 export default function Home() {
