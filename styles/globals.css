@@ -28,7 +28,7 @@ a {
 
 .showcase-background {
   background: linear-gradient(#000000ec, #000000ec),
-    url(../public/images/pexels-adrien-olichon-2387793.jpg);
+    url(/images/pexels-adrien-olichon-2387793.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,14 +38,14 @@ a {
   position: absolute;
   bottom: -10%;
   left: -5%;
-  background: url(../public/images/ben-griffiths-Bj6ENZDMSDY-unsplash.jpg);
+  background: url(/images/ben-griffiths-Bj6ENZDMSDY-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .ux {
-  background: url(../public/images/teemu-paananen-bzdhc5b3Bxs-unsplash.jpg);
+  background: url(/images/teemu-paananen-bzdhc5b3Bxs-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ a {
   position: absolute;
   bottom: 0;
   right: -7%;
-  background: url(../public/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
+  background: url(/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,28 +67,28 @@ a {
   bottom: -10%;
   right: 35%;
   /* z-index: 1; */
-  background: url(../public/images/anshita-nair-Jo_GA0TDTgM-unsplash.jpg);
+  background: url(/images/anshita-nair-Jo_GA0TDTgM-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .guide {
-  background: url(../public/images/pexels-julia-m-cameron-4144101.jpg);
+  background: url(/images/pexels-julia-m-cameron-4144101.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .challenge {
-  background: url(../public/images/pexels-pixabay-163064.jpg);
+  background: url(/images/pexels-pixabay-163064.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .tryout {
-  background: url(../public/images/pexels-luca-sammarco-6155010.jpg);
+  background: url(/images/pexels-luca-sammarco-6155010.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ a {
 
 .community {
   background: linear-gradient(rgba(0, 0, 0, 0.425), black),
-    url(../public/images/jason-goodman-Oalh2MojUuk-unsplash.jpg);
+    url(/images/jason-goodman-Oalh2MojUuk-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ a {
 
 .web {
   background: linear-gradient(rgba(0, 0, 0, 0.425), black),
-    url(../public/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg);
+    url(/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ a {
 
 .mobile {
   background: linear-gradient(rgba(0, 0, 0, 0.425), black),
-    url(../public/images/oskar-yildiz-gy08FXeM2L4-unsplash.jpg);
+    url(/images/oskar-yildiz-gy08FXeM2L4-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -120,14 +120,14 @@ a {
 
 .programming {
   background: linear-gradient(rgba(0, 0, 0, 0.425), black),
-    url(../public/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg);
+    url(/images/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .adobe {
-  background: url(../public/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
+  background: url(/images/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ a {
 
 .blender {
   background: linear-gradient(rgba(0, 0, 0, 0.425), black),
-    url(../public/images/mariia-shalabaieva-fRqWbDS40Bg-unsplash.jpg);
+    url(/images/mariia-shalabaieva-fRqWbDS40Bg-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
