@@ -186,7 +186,7 @@ export const Details_Data = [
             content: ["Express JS", "Fastify", "Hapi"],
           },
         ],
-        desc: "These tool allow you to deal with server-side development of the web. Like storing data",
+        desc: "These tools allow you to deal with server-side development of the web. Like storing data",
       },
     ],
   },
@@ -260,11 +260,11 @@ export const Details_Data = [
     categories: [
       {
         name: "Basic",
-        desc: "This guide introduces you to the XD work area and show you how to create and save your work, Learn some basic tools and techniques",
+        desc: "This guide introduces you to the XD work area and shows you how to create and save your work, Learn some basic tools and techniques",
       },
       {
         name: "Advance",
-        desc: "This guide introduces you to other advance XD tools and show how to use extension in XD. Comes with more real life projects.",
+        desc: "This guide introduces you to other advance XD tools and shows how to use extension in XD. Comes with more real life projects.",
       },
     ],
   },
@@ -272,7 +272,7 @@ export const Details_Data = [
     name: "Adobe Photoshop",
     path: "adobe_photoshop",
     background: "adobe",
-    desc: "It's very hard to find the right materials when learn Adobe Photoshop for the first time, This guide provides you with all materials you will need in learning Adobe Photoshop",
+    desc: "It's very hard to find the right materials when learning Adobe Photoshop for the first time, This guide provides you with all materials you will need in learning Adobe Photoshop",
     categories: [
       {
         name: "Basic",
@@ -280,7 +280,7 @@ export const Details_Data = [
       },
       {
         name: "Advance",
-        desc: "This guide introduces you to other advance photoshop tool and show how to use extension in photoshop. Comes with more real life projects.",
+        desc: "This guide introduces you to other advance photoshop tools and shows how to use extension in photoshop. Comes with more real life projects.",
       },
     ],
   },
@@ -292,11 +292,11 @@ export const Details_Data = [
     categories: [
       {
         name: "Basic",
-        desc: "This guide introduces you to the Illustrator work area and show you how to create and save your work, Learn some basic tools and techniques",
+        desc: "This guide introduces you to the Illustrator work area and shows you how to create and save your work, Learn some basic tools and techniques",
       },
       {
         name: "Advance",
-        desc: "This guide introduces you to other advance Illustrator tools and show how to use extension in Illustrator. Comes with more real life projects.",
+        desc: "This guide introduces you to other advance Illustrator tools and shows how to use extension in Illustrator. Comes with more real life projects.",
       },
     ],
   },
@@ -308,11 +308,11 @@ export const Details_Data = [
     categories: [
       {
         name: "Basic",
-        desc: "This guide introduces you to the After Effect work area and show you how to create and save your work, Learn some basic tools and techniques",
+        desc: "This guide introduces you to the After Effect work area and shows you how to create and save your work, Learn some basic tools and techniques",
       },
       {
         name: "Advance",
-        desc: "This guide After Effect you to other advance After Effect tools and show how to use extension in After Effect. Comes with more real life projects.",
+        desc: "This guide After Effect you to other advance After Effect tools and shows how to use extension in After Effect. Comes with more real life projects.",
       },
     ],
   },
