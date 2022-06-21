@@ -41,10 +41,7 @@ function Details({ guides }) {
             {categories.map((category, index) => (
               <a
                 key={index}
-                href={{
-                  pathname: "/materials",
-                  query: { name: category.toLowerCase(), index: 0 },
-                }}
+                href={`/materials?name=${category.toLowerCase()}&index=0`}
               >
                 <p className="font-bold md:text-xl text-[0.6em] p-2 md:p-8 bg-cyan-500 cursor-pointer rounded-md text-center">
                   {category}
@@ -116,13 +113,7 @@ function Details({ guides }) {
                           <div className="grid grid-cols-2 gap-4">
                             {content.content.map((value, index) => (
                               <a
-                                href={{
-                                  pathname: "/materials",
-                                  query: {
-                                    name: value.toLowerCase(),
-                                    index: 0,
-                                  },
-                                }}
+                                href={`/materials?name=${value.toLowerCase()}&index=0`}
                                 key={index}
                               >
                                 <p className="font-bold md:text-xl text-xs p-4 md:p-8 bg-cyan-500 rounded-md text-center cursor-pointer">
@@ -134,10 +125,7 @@ function Details({ guides }) {
                         </div>
                       ) : (
                         <a
-                          href={{
-                            pathname: "/materials",
-                            query: { name: content.toLowerCase(), index: 0 },
-                          }}
+                          href={`/materials?name=${content.toLowerCase()}&index=0`}
                           key={index}
                         >
                           <p className="font-bold md:text-xl text-xs md:p-8 p-2 bg-cyan-500 rounded-md cursor-pointer">
@@ -155,13 +143,9 @@ function Details({ guides }) {
           <div className="md:w-3/5 mx-auto my-8 mb-8 space-y-8">
             {categories.map((category, index) => (
               <a
-                href={{
-                  pathname: "/materials",
-                  query: {
-                    name: path + " " + category.name.toLowerCase(),
-                    index: 0,
-                  },
-                }}
+                href={`/materials?name=${
+                  path + " " + category.name.toLowerCase()
+                }&index=0`}
                 key={index}
               >
                 <div className="md:p-8 p-4 space-y-2 shadow-2xl rounded-lg cursor-pointer ">
