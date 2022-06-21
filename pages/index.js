@@ -61,7 +61,7 @@ export default function Home() {
           <div className=" flex flex-col md:grid md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-x-4 gap-y-8 lg:w-11/12 m-auto my-8">
             <div className="flex justify-center items-center">
               <div className="shadow-2xl h-[250px] md:h-[300px] md:w-[300px] w-[250px] rounded-md p-4 flex flex-col justify-center items-center space-y-4">
-                <Image src={Program} />
+                <img src="/images/icons/console-50.png" />
                 <div className="text-center">
                   <h3 className="text-base md:text-xl font-bold uppercase">
                     Programming
@@ -80,7 +80,11 @@ export default function Home() {
             </div>
             <div className="flex justify-center items-center">
               <div className="shadow-2xl h-[250px] md:h-[300px] md:w-[300px] w-[250px] rounded-md p-4 flex flex-col justify-center items-center space-y-4">
-                <Image src={Web} height="64" width="64" />
+                <img
+                  src="/images/icons/web-development-64.png"
+                  height="64"
+                  width="64"
+                />
                 <div className="text-center">
                   <h3 className="text-base md:text-xl font-bold uppercase">
                     Web Development
@@ -99,8 +103,8 @@ export default function Home() {
             </div>
             <div className="md:flex justify-center items-center hidden">
               <div className="shadow-2xl h-[300px] w-[300px] rounded-md p-4 flex flex-col justify-center items-center space-y-4">
-                <Image
-                  src={Mobile}
+                <img
+                  src="/images/icons/mobile-development-98.png"
                   height="60"
                   width="70"
                   className="object-cover object-center"
@@ -123,7 +127,11 @@ export default function Home() {
             </div>
             <div className="hidden lg:flex justify-center items-center">
               <div className="shadow-2xl h-[300px] w-[300px] rounded-md p-4 flex flex-col justify-center items-center space-y-4">
-                <Image src={illustrator} height="80" width="80" />
+                <img
+                  src="/images/icons/adobe-illustrator-480.png"
+                  height="80"
+                  width="80"
+                />
                 <div className="text-center">
                   <h3 className="text-xl font-bold uppercase">
                     Adobe Illustrator
@@ -142,7 +150,11 @@ export default function Home() {
             </div>
             <div className="hidden lg:flex justify-center items-center">
               <div className="shadow-2xl md:h-[300px] md:w-[300px] w-[250px] rounded-md p-4 flex flex-col justify-center items-center space-y-2">
-                <Image src={XD} height="80" width="80" />
+                <img
+                  src="/images/icons/adobe-xd-240.png"
+                  height="80"
+                  width="80"
+                />
                 <div className="text-center">
                   <h3 className="md:text-xl font-bold uppercase">Adobe XD</h3>
                   <p className="text-gray-800 md:text-base text-sm my-4">
@@ -159,7 +171,11 @@ export default function Home() {
             </div>
             <div className="flex justify-center items-center">
               <div className="shadow-2xl md:h-[300px] md:w-[300px] w-[250px] rounded-md p-4 flex flex-col justify-center items-center space-y-4">
-                <Image src={Photoshop} height="80" width="80" />
+                <img
+                  src="/images/icons/adobe-photoshop-480.png"
+                  height="80"
+                  width="80"
+                />
                 <div className="text-center">
                   <h3 className="md:text-xl font-bold uppercase">
                     Adobe Photoshop
@@ -178,7 +194,11 @@ export default function Home() {
             </div>
             <div className="hidden md:flex justify-center items-center">
               <div className="shadow-2xl h-[300px] w-[300px] rounded-md p-4 flex flex-col justify-center items-center space-y-4">
-                <Image src={Blender} height="80" width="80" />
+                <img
+                  src="/images/icons/blender-3d-240.png"
+                  height="80"
+                  width="80"
+                />
                 <div className="text-center">
                   <h3 className="text-xl font-bold uppercase">Blender 3d</h3>
                   <p className="text-gray-800 my-4">
@@ -195,7 +215,11 @@ export default function Home() {
             </div>
             <div className="hidden md:flex justify-center items-center">
               <div className="shadow-2xl h-[300px] w-[300px] rounded-md p-4 flex flex-col justify-center items-center space-y-4">
-                <Image src={After} height="80" width="80" />
+                <img
+                  src="/images/icons/adobe-after-effects-240.png"
+                  height="80"
+                  width="80"
+                />
                 <div className="text-center">
                   <h3 className="text-xl font-bold uppercase">
                     Adobe After Effect
