@@ -82,7 +82,7 @@ export default function Home() {
                     Learn to create website.
                   </p>
                   <a
-                    href="/"
+                    href="/guides/details?path=web_development"
                     className="bg-[#ff0062] px-4 py-2 text-sm md:text-xl font-medium text-white rounded-full"
                   >
                     Get Started
@@ -106,7 +106,7 @@ export default function Home() {
                     Learn how to create mobile apps and games.
                   </p>
                   <a
-                    href="/"
+                    href="/guides/details?path=mobile_development"
                     className="bg-[#ff0062] px-4 py-2 text-xl font-medium text-white rounded-full"
                   >
                     Get Started
@@ -129,7 +129,7 @@ export default function Home() {
                     Learn to design vector graphics.
                   </p>
                   <a
-                    href="/"
+                    href="/guides/details?path=adobe_illustrator"
                     className="bg-[#ff0062] px-4 py-2 text-xl font-medium text-white rounded-full"
                   >
                     Get Started
@@ -150,7 +150,7 @@ export default function Home() {
                     Learn UI design.
                   </p>
                   <a
-                    href="/"
+                    href="/guides/details?path=adobe_xd"
                     className="bg-[#ff0062] px-4 py-2 text-sm md:text-xl font-medium text-white rounded-full"
                   >
                     Get Started
@@ -173,7 +173,7 @@ export default function Home() {
                     Learn photo editing and vector graphic design.
                   </p>
                   <a
-                    href="/"
+                    href="/guides/details?path=adobe_photoshop"
                     className="bg-[#ff0062] px-4 py-2 text-sm md:text-xl font-medium text-white rounded-full"
                   >
                     Get Started
@@ -194,7 +194,7 @@ export default function Home() {
                     Learn 3D design and animation.
                   </p>
                   <a
-                    href="/"
+                    href="/guides/details?path=blender"
                     className="bg-[#ff0062] px-4 py-2 text-xl font-medium text-white rounded-full"
                   >
                     Get Started
@@ -215,7 +215,7 @@ export default function Home() {
                   </h3>
                   <p className="text-gray-800 my-4">Learn video editing.</p>
                   <a
-                    href="/"
+                    href="/guides/details?path=adobe_effect"
                     className="bg-[#ff0062] px-4 py-2 text-xl font-medium text-white rounded-full"
                   >
                     Get Started
@@ -283,7 +283,7 @@ export default function Home() {
                     reward.
                   </p>
                   <a
-                    href="/challenge"
+                    href="/try_out"
                     className="bg-[#ff0062] px-8 py-2 text-sm font-medium text-white rounded-full"
                   >
                     TRY OUT

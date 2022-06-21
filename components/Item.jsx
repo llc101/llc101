@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 function Item({ guide }) {
@@ -11,13 +10,11 @@ function Item({ guide }) {
           </div>
           <h3 className="font-semibold lg:text-2xl">{guide.name}</h3>
         </div>
-        <Link
-          href={{ pathname: "/guides/details", query: { path: guide.path } }}
-        >
+        <a href={`/guides/details?path=${guide.path}`}>
           <span className="flex space-x-2 items-center text-blue-600 cursor-pointer">
             <span>Guide</span> <HiOutlineArrowNarrowRight size={24} />
           </span>
-        </Link>
+        </a>
       </div>
       <div
         className={
