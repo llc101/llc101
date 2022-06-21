@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Banner from "../utils/banner";
 // import Challenge from "../public/images/pexels-pixabay-163064.jpg";
 
 export default function Home() {
@@ -43,6 +44,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <script src={Banner} type="text/javascript" />
 
         {/* Guides */}
         <div className="md:w-4/5 md:mx-auto mx-4 my-8">
