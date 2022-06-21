@@ -1,5 +1,4 @@
 import { useRouter } from "next/router";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Details_Data } from "../../utils/guides";
 
@@ -40,7 +39,7 @@ function Details({ guides }) {
         {categories.length > 3 ? (
           <div className="md:w-4/5 mx-auto my-8 grid grid-cols-3 gap-2 md:grid-cols-5 md:gap-8">
             {categories.map((category, index) => (
-              <Link
+              <a
                 key={index}
                 href={{
                   pathname: "/materials",
@@ -50,7 +49,7 @@ function Details({ guides }) {
                 <p className="font-bold md:text-xl text-[0.6em] p-2 md:p-8 bg-cyan-500 cursor-pointer rounded-md text-center">
                   {category}
                 </p>
-              </Link>
+              </a>
             ))}
           </div>
         ) : categories.length > 2 ? (
@@ -116,7 +115,7 @@ function Details({ guides }) {
                           </h3>
                           <div className="grid grid-cols-2 gap-4">
                             {content.content.map((value, index) => (
-                              <Link
+                              <a
                                 href={{
                                   pathname: "/materials",
                                   query: {
@@ -129,12 +128,12 @@ function Details({ guides }) {
                                 <p className="font-bold md:text-xl text-xs p-4 md:p-8 bg-cyan-500 rounded-md text-center cursor-pointer">
                                   {value}
                                 </p>
-                              </Link>
+                              </a>
                             ))}
                           </div>
                         </div>
                       ) : (
-                        <Link
+                        <a
                           href={{
                             pathname: "/materials",
                             query: { name: content.toLowerCase(), index: 0 },
@@ -144,7 +143,7 @@ function Details({ guides }) {
                           <p className="font-bold md:text-xl text-xs md:p-8 p-2 bg-cyan-500 rounded-md cursor-pointer">
                             {content}
                           </p>
-                        </Link>
+                        </a>
                       )
                     )}
                   </div>
@@ -155,7 +154,7 @@ function Details({ guides }) {
         ) : (
           <div className="md:w-3/5 mx-auto my-8 mb-8 space-y-8">
             {categories.map((category, index) => (
-              <Link
+              <a
                 href={{
                   pathname: "/materials",
                   query: {
@@ -171,7 +170,7 @@ function Details({ guides }) {
                   </h4>
                   <p className="md:text-base text-xs">{category.desc}</p>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         )}
