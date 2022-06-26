@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center my-8 px-2">
+        <div className="hidden md:flex justify-center items-center my-8 px-2">
           <Banner
             atOptions={{
               key: "e4e2ea2bf2913225da167d684b786412",
@@ -57,10 +57,6 @@ export default function Home() {
             }}
           />
         </div>
-
-        {/* <div className="p-2 md:hidden">
-          <div id="container-9066d06eeb66c78f46d7292c1ec93e17"></div>
-        </div> */}
 
         {/* Guides */}
         <div className="md:w-4/5 md:mx-auto mx-4 my-8">
@@ -268,18 +264,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center my-8 px-2">
-          <Banner
-            atOptions={{
-              key: "82a08b05a02857034dd70940d6e862a0",
-              format: "iframe",
-              height: 60,
-              width: 468,
-              params: {},
-            }}
-          />
-        </div>
-
         <div className="showcase-background p-8 clip-background-1  lg:clip-background my-16">
           <div className="md:w-4/5 m-auto md:px-4 md:p-16 space-y-4 md:space-y-32">
             <div className="flex items-center">
@@ -347,18 +331,6 @@ export default function Home() {
 
         <div className="p-2">
           <div id="container-9066d06eeb66c78f46d7292c1ec93e17"></div>
-        </div>
-
-        <div className="justify-center items-center my-8 px-2 flex">
-          <Banner
-            atOptions={{
-              key: "c8fa77673b78cad9830458ded0da7c5e",
-              format: "iframe",
-              height: 300,
-              width: 160,
-              params: {},
-            }}
-          />
         </div>
       </main>
       <Script
