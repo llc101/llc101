@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center my-8 px-2 invisible md:visible">
+        <div className="flex justify-center items-center my-8 px-2">
           <Banner
             atOptions={{
               key: "e4e2ea2bf2913225da167d684b786412",
@@ -58,7 +58,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="p-2 md:invisible">
+        <div className="p-2 md:hidden">
           <div id="container-9066d06eeb66c78f46d7292c1ec93e17"></div>
         </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="md:flex md:visible justify-center items-center my-8 px-2 invisible">
+        <div className="flex justify-center items-center my-8 px-2">
           <Banner
             atOptions={{
               key: "e4e2ea2bf2913225da167d684b786412",
@@ -345,11 +345,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="p-2 invisible md:visible">
+        <div className="p-2">
           <div id="container-9066d06eeb66c78f46d7292c1ec93e17"></div>
         </div>
 
-        <div className="md:invisible justify-center items-center my-8 px-2 flex">
+        <div className="justify-center items-center my-8 px-2 flex">
           <Banner
             atOptions={{
               key: "c8fa77673b78cad9830458ded0da7c5e",
