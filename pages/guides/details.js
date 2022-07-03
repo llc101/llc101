@@ -146,7 +146,7 @@ function Details({ guides }) {
                           href={`/materials?name=${content.toLowerCase()}&index=0`}
                           key={index}
                         >
-                          <p className="font-bold md:text-xl text-xs md:p-8 p-2 bg-cyan-500 rounded-md cursor-pointer">
+                          <p className="font-bold md:text-xl text-xs md:p-8 p-2 bg-cyan-500 rounded-md cursor-pointer my-4 md:my-0">
                             {content}
                           </p>
                         </a>
