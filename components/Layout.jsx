@@ -9,7 +9,11 @@ function Layout({ children }) {
         <title>Creativity | 101</title>
         <meta
           name="description"
-          content="Learn web development, 2d & 3d graphic design and Photo & Video Editing."
+          content="Learn programming, web development, mobile Development, 2d & 3d graphic design and Photo & Video Editing."
+        />
+        <meta
+          name="keywords"
+          content="learn, programming, mobile, desktop, webapp, app, application, web, development, 2d, 3d, graphic, design, photo, video, editing, guide"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
