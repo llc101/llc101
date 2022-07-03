@@ -1,15 +1,11 @@
 import MiniPlayer from "../components/MiniPlayer";
 import Player from "../components/YTPlayer";
 import { useRouter } from "next/router";
-import { Videos } from "../utils/guides";
 import Script from "next/script";
 import Banner from "../components/Banner";
-// import { useState } from "react";
 function Materials() {
   const router = useRouter();
   const { name, index } = router.query;
-
-  console.log(Videos.get(name));
 
   return (
     <div className="md:w-4/5 mx-4 md:mx-auto py-8">

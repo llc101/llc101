@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Videos } from "../utils/guides";
 
 function MiniPlayer({ tuts, name }) {
@@ -17,9 +16,8 @@ function MiniPlayer({ tuts, name }) {
 }
 
 function Watch({ tut, name, id }) {
-  //   console.log(tut);
   return (
-    <Link href={{ pathname: "/materials", query: { name: name, index: id } }}>
+    <a href={`/materials?name=${name}&index=${id}`}>
       <div className="relative">
         <iframe
           className="hidden lg:block h-[200px] w-full"
@@ -39,16 +37,8 @@ function Watch({ tut, name, id }) {
         ></iframe>
         <div className="absolute inset-0 cursor-pointer"></div>
       </div>
-    </Link>
+    </a>
   );
 }
-
-MiniPlayer.defaultProps = {
-  tuts: [
-    "https://www.youtube-nocookie.com/embed/BcLNfwF04Kw?controls=0&disablekb=1&modestbranding=1&rel=0",
-    "https://www.youtube-nocookie.com/embed/vxqBm6_0vyk?controls=0&disablekb=1&modestbranding=1&rel=0",
-    "https://www.youtube-nocookie.com/embed/BUCiSSyIGGU?controls=0&disablekb=1&modestbranding=1&rel=0",
-  ],
-};
 
 export default MiniPlayer;

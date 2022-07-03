@@ -18,7 +18,6 @@ function Details({ guides }) {
 
   const router = useRouter();
   const { path } = router.query;
-  //   console.log(path);
 
   const { name, desc, background, categories } = item[0];
 
@@ -54,7 +53,13 @@ function Details({ guides }) {
             {categories.map((category, index) => (
               <a
                 key={index}
-                href={`/materials?name=${category.toLowerCase()}&index=0`}
+                href={`/materials?name=${
+                  category.toLowerCase() === "c++"
+                    ? "cpp"
+                    : category.toLowerCase() === "c#"
+                    ? "c-sharp"
+                    : category.toLowerCase()
+                }&index=0`}
               >
                 <p className="font-bold md:text-xl text-[0.6em] p-2 md:p-8 bg-cyan-500 cursor-pointer rounded-md text-center">
                   {category}

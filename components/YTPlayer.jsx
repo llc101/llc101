@@ -2,7 +2,6 @@ import React from "react";
 import { Videos } from "../utils/guides";
 
 function Player({ watch = 0, tuts, name }) {
-  // console.log(tuts);
   tuts = Videos.get(name);
   return tuts !== undefined ? (
     <>
@@ -24,6 +23,7 @@ function Player({ watch = 0, tuts, name }) {
           <a
             href={tuts[watch].channel}
             className="bg-cyan-500 px-4 py-2 text-lg rounded-lg font-semibold text-white"
+            target="blank"
           >
             Subscribe to <span>{tuts[watch].creator}</span> for more tutorials
           </a>
@@ -60,13 +60,5 @@ function Player({ watch = 0, tuts, name }) {
     </div>
   );
 }
-
-// Player.defaultProps = {
-//   tuts: [
-//     "https://www.youtube-nocookie.com/embed/BcLNfwF04Kw?disablekb=1&modestbranding=1&rel=0",
-//     "https://www.youtube-nocookie.com/embed/vxqBm6_0vyk?disablekb=1&modestbranding=1&rel=0",
-//     "https://www.youtube-nocookie.com/embed/BUCiSSyIGGU?disablekb=1&modestbranding=1&rel=0",
-//   ],
-// };
 
 export default Player;

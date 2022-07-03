@@ -1,12 +1,3 @@
-import XD from "../public/images/icons/adobe-xd-240.png";
-import illustrator from "../public/images/icons/adobe-illustrator-480.png";
-import Web from "../public/images/icons/web-development-64.png";
-import Mobile from "../public/images/icons/mobile-development-98.png";
-import Program from "../public/images/icons/console-50.png";
-import Blender from "../public/images/icons/blender-3d-240.png";
-import Photoshop from "../public/images/icons/adobe-photoshop-480.png";
-import After from "../public/images/icons/adobe-after-effects-240.png";
-
 export const Guides = [
   {
     path: "web_development",
@@ -89,7 +80,7 @@ export const Guides = [
     categories: [
       "FORTRAN",
       "JAVA",
-      "PHYTHON",
+      "PYTHON",
       "C#",
       "DART",
       "C++",
@@ -221,7 +212,7 @@ export const Details_Data = [
     categories: [
       "FORTRAN",
       "JAVA",
-      "PHYTHON",
+      "PYTHON",
       "C#",
       "DART",
       "C++",
@@ -1166,7 +1157,7 @@ export const Videos = new Map([
     ],
   ],
   [
-    "c#",
+    "c-sharp",
     [
       {
         creator: "programming with mosh",
@@ -1199,7 +1190,7 @@ export const Videos = new Map([
     ],
   ],
   [
-    "c++",
+    "cpp",
     [
       {
         creator: "Traversy Media",
